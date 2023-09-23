@@ -1,0 +1,30 @@
+{
+  "name": "strapi-editor",
+  "version": "1.0.0",
+  "description": "A system that enables in-site editing for a strapi-connected website, using HTML data attributes to automatically link collections, entries, and single types back to their respective admin panel URLs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start tsc --watch & start webpack watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raykeating/strapify-editor.git"
+  },
+  "keywords": [
+    "strapi",
+    "cms",
+    "strapify"
+  ],
+  "author": "Ray Keating",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raykeating/strapify-editor/issues"
+  },
+  "homepage": "https://github.com/raykeating/strapify-editor#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
